@@ -1,0 +1,14 @@
+.signosContainer {
+  display: flex;
+  flex-direction: column;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.consultaBuscarPacienteContainer mat-form-field,
+.consultaBuscarPacienteContainer button {
+  position: relative;
+  width: 50%;
+}

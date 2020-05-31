@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-header>
+    <h2>PERFIL DE USUARIO</h2>
+  </mat-card-header>
+  <mat-card-content>
+    <label for="username">Nombre de usuario:</label>
+    <h1 id="username">{{username}}</h1>
+
+    <label for="roles">Rol(es):</label>
+    <mat-list id="roles" role="list">
+      <mat-list-item *ngFor="let r of roles" role="listitem">{{r}}</mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
